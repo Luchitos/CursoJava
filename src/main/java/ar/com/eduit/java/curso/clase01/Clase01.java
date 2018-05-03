@@ -8,7 +8,7 @@ package ar.com.eduit.java.curso.clase01;
 /** psvm TAB arma el metodo main
  *Punto de entrada del proyecto.
  * -@param  args Argumentos que ingresan desde consola.
- * @author EducaciónIT
+ * @author luchitos
  */
 public class Clase01 {
         public static void main(String[] args) {
@@ -86,6 +86,5 @@ public class Clase01 {
                     if(car >=97 && car <=122) car -=32;
                     System.out.println(car);
                 }
-    }// Close main
-        
+    }// Close main        
 }//Close Clase01
