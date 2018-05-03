@@ -79,7 +79,7 @@ public class Clase01 {
                 //Tipos double 64 bits
                 double dl=5.45;
                 
-                String st = "Esto es una cadena de caracteres";
+                String st = "Esto Es Una Cadena De Caracteres";
                 //Imprimir un string como si fuera un vector
                 for(int a=0;a<st.length();a++){
                     char car = st.charAt(a);
@@ -91,6 +91,12 @@ public class Clase01 {
                     char car = st.charAt(a);
                     System.out.println((car >=97 && car<=122)?car-=32:car);//If and else
                 }
+                //imprimir el string en minusculas
+                for(int a=0;a<st.length();a++){
+                    char car = st.charAt(a);
+                    System.out.print((car >=65 && car<=90)?car+=32:car);//If and else
+                }
+                
     }// Close main        
         public static void funcion2(String texto, int index) {
             if(texto == null || index >=texto.length())
