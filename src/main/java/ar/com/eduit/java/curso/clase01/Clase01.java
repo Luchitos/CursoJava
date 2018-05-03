@@ -80,11 +80,20 @@ public class Clase01 {
                 double dl=5.45;
                 
                 String st = "Esto es una cadena de caracteres";
-                
+                //Imprimir un string como si fuera un vector
                 for(int a=0;a<st.length();a++){
                     char car = st.charAt(a);
                     if(car >=97 && car <=122) car -=32;
                     System.out.println(car);
                 }
+                //Imprimir un string como si fuera un vector
+                for(int a=0;a<st.length();a++){
+                    char car = st.charAt(a);
+                    System.out.println((car >=97 && car<=122)?car-=32:car);//If and else
+                }
     }// Close main        
+        public static void funcion2(String texto, int index) {
+            if(texto == null || index >=texto.length())
+                System.out.println(texto.charAt(index));        
+    }
 }//Close Clase01
